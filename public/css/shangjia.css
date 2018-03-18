@@ -1,0 +1,512 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: #f8f8f8;
+}
+body .htit {
+  width: 100%;
+  height: 140px;
+  margin: 10px auto 0;
+  background: #fff;
+}
+body .htit .htit_center {
+  width: 1200px;
+  margin: 0 auto;
+}
+body .htit .htit_center .htit_left {
+  float: left;
+  margin-top: 10px;
+  height: 120px;
+}
+body .htit .htit_center .htit_left .htit_name {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 140px;
+  color: #121212;
+  display: inline-block;
+}
+body .htit .htit_center .htit_left > span {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #929292;
+}
+body .htit .htit_center .htit_left > span > i {
+  font-style: normal;
+  color: #121212;
+  font-size: 14px;
+}
+body .htit .htit_center .htit_left > span .htit_red {
+  color: #e84b47;
+}
+body .htit .htit_center .htit_right {
+  float: right;
+  height: 120px;
+  margin-top: 15px;
+}
+body .htit .htit_center .htit_right .order_list > li {
+  display: inline-block;
+  line-height: 22px;
+  width: 100px;
+  text-align: center;
+  margin-top: 52px;
+  font-size: 14px;
+}
+body .htit .htit_center .htit_right .order_list > li > i {
+  font-style: normal;
+  display: block;
+  color: #e84b47;
+}
+body .htit .htit_center .htit_right .order_list > li > em {
+  font-style: normal;
+  position: relative;
+  bottom: 12px;
+  left: 20px;
+  color: #e5e5e5;
+}
+body .seller_nav {
+  width: 100%;
+  height: 40px;
+  background: #323434;
+}
+body .seller_nav > ul {
+  width: 1200px;
+  margin: 0 auto;
+}
+body .seller_nav > ul > li {
+  cursor: pointer;
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+body .seller_nav > ul > li > a {
+  color: #fff;
+  text-align: center;
+}
+body .seller_nav > ul .change_color {
+  background: #424242;
+}
+body .seller_detail {
+  width: 1200px;
+  margin: 15px auto 0;
+}
+body .seller_detail .detail_left {
+  box-sizing: border-box;
+  width: 960px;
+  background: #fff;
+  float: left;
+  margin-bottom: 60px;
+  margin-right: 10px;
+}
+body .seller_detail .detail_left .serve_demo {
+  box-sizing: border-box;
+  width: 95%;
+  margin: 0 auto;
+  line-height: 60px;
+  border-bottom: 1px solid #e5e5e5;
+}
+body .seller_detail .detail_left .serve_demo > span {
+  box-sizing: border-box;
+}
+body .seller_detail .detail_left .serve_demo > span > i {
+  cursor: pointer;
+  font-style: normal;
+  color: #121212;
+  font-size: 16px;
+  border-bottom: 4px solid #fb474f;
+  padding-bottom: 16px;
+}
+body .seller_detail .detail_left .serve_content {
+  height: 200px;
+  width: 100%;
+}
+body .seller_detail .detail_left .serve_content > a {
+  color: #7e8c8d;
+}
+body .seller_detail .detail_left .serve_content > a .content_total {
+  height: 200px;
+  border-bottom: 1px solid #e5e5e5;
+}
+body .seller_detail .detail_left .serve_content > a .content_total > img {
+  width: 150px;
+  height: 150px;
+  margin: 25px;
+  float: left;
+}
+body .seller_detail .detail_left .serve_content > a .content_total .total_center {
+  position: relative;
+  top: 25px;
+  width: 64%;
+  float: left;
+  height: 42px;
+  line-height: 42px;
+}
+body .seller_detail .detail_left .serve_content > a .content_total .total_center > i {
+  text-align: left;
+  font-style: normal;
+  height: 42px;
+  line-height: 42px;
+}
+body .seller_detail .detail_left .serve_content > a .content_total .total_center .total_title {
+  display: block;
+  font-size: 18px;
+  color: #1d1515;
+}
+body .seller_detail .detail_left .serve_content > a .content_total .total_center .total_detail {
+  display: block;
+  color: #929292;
+  font-size: 14px;
+}
+body .seller_detail .detail_left .serve_content > a .content_total .total_center .total_money {
+  display: block;
+  height: 42px;
+  margin-top: 20px;
+}
+body .seller_detail .detail_left .serve_content > a .content_total .total_center .total_money > i {
+  text-align: left;
+  font-style: normal;
+  height: 42px;
+  line-height: 42px;
+}
+body .seller_detail .detail_left .serve_content > a .content_total .total_center .total_money .total_price {
+  font-size: 30px;
+  color: #fc545e;
+  font-weight: 700;
+}
+body .seller_detail .detail_left .serve_content > a .content_total .total_center .total_money .total_time {
+  margin-left: -5px;
+  color: #fc545e;
+  font-size: 14px;
+  font-weight: 700;
+}
+body .seller_detail .detail_left .serve_content > a .content_total .total_center .total_money .old_price {
+  font-size: 14px;
+  color: #898989;
+  margin-left: 20px;
+}
+body .seller_detail .detail_left .serve_content > a .content_total .total_center .total_money .old_price_a {
+  font-size: 14px;
+  color: #898989;
+  text-decoration: line-through;
+}
+body .seller_detail .detail_left .serve_content > a .content_total .total_center .total_money .sell_num {
+  font-size: 14px;
+  color: #898989;
+  float: right;
+  margin-left: -60px;
+}
+body .seller_detail .detail_left .serve_blank {
+  width: 100%;
+  display: block;
+  background: #f8f8f8;
+  height: 70px;
+}
+body .seller_detail .detail_left .seller_synopsis {
+  box-sizing: border-box;
+  width: 95%;
+  margin: 0 auto;
+  line-height: 60px;
+}
+body .seller_detail .detail_left .seller_synopsis .synopsis_title {
+  border-bottom: 1px solid #e5e5e5;
+}
+body .seller_detail .detail_left .seller_synopsis .synopsis_title > span {
+  box-sizing: border-box;
+}
+body .seller_detail .detail_left .seller_synopsis .synopsis_title > span > i {
+  cursor: pointer;
+  font-style: normal;
+  color: #121212;
+  font-size: 16px;
+  border-bottom: 4px solid #fb474f;
+  padding-bottom: 16px;
+}
+body .seller_detail .detail_left .seller_synopsis .company_name {
+  height: 40px;
+}
+body .seller_detail .detail_left .seller_synopsis .company_name > span {
+  line-height: 40px;
+  font-size: 18px;
+}
+body .seller_detail .detail_left .seller_synopsis .company_name > img {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+body .seller_detail .detail_left .seller_synopsis .company_synopsis {
+  line-height: 28px;
+  margin: 10px 0 25px;
+  font-size: 16px;
+  text-align: left;
+}
+body .seller_detail .detail_left .page_blank {
+  width: 100%;
+  display: block;
+  background: #f8f8f8;
+  height: 10px;
+}
+body .seller_detail .detail_left .user_assess {
+  box-sizing: border-box;
+  width: 95%;
+  margin: 0 auto;
+  line-height: 60px;
+}
+body .seller_detail .detail_left .user_assess .assess_title {
+  border-bottom: 1px solid #e5e5e5;
+}
+body .seller_detail .detail_left .user_assess .assess_title > span {
+  box-sizing: border-box;
+}
+body .seller_detail .detail_left .user_assess .assess_title > span > i {
+  cursor: pointer;
+  font-style: normal;
+  color: #121212;
+  font-size: 16px;
+  border-bottom: 4px solid #fb474f;
+  padding-bottom: 16px;
+}
+body .seller_detail .detail_left .user_assess .assess_title .count {
+  font-style: normal;
+  color: #121212;
+  font-size: 14px;
+  margin-left: 15px;
+}
+body .seller_detail .detail_left .user_assess .assess_list {
+  width: 960px;
+}
+body .seller_detail .detail_left .user_assess .assess_list .assess_item {
+  width: 95%;
+  margin-top: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+body .seller_detail .detail_left .user_assess .assess_list .assess_item > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  float: left;
+  vertical-align: middle;
+}
+body .seller_detail .detail_left .user_assess .assess_list .assess_item .comment {
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 20px;
+  width: 92%;
+}
+body .seller_detail .detail_left .user_assess .assess_list .assess_item .comment > li {
+  width: auto;
+  height: auto;
+  display: block;
+  float: none;
+  padding: 0;
+  line-height: 28px;
+}
+body .seller_detail .detail_left .user_assess .assess_list .assess_item .comment .user_name {
+  font-size: 14px;
+}
+body .seller_detail .detail_left .user_assess .assess_list .assess_item .comment .user_info .star > img {
+  width: 10px;
+  height: 10px;
+}
+body .seller_detail .detail_left .user_assess .assess_list .assess_item .comment .user_info .date {
+  margin-left: 10px;
+}
+body .seller_detail .detail_left .user_assess .assess_list .assess_item .comment .comments_detail {
+  line-height: 26px;
+  font-size: 16px;
+}
+body .seller_detail .detail_left .user_assess .assess_list .assess_item .comment .comments_img {
+  margin: 10px auto;
+}
+body .seller_detail .detail_left .user_assess .assess_list .assess_item .comment .comments_img > img {
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+}
+body .seller_detail .detail_left .user_assess .assess_list .assess_item .comment .city_position {
+  height: 40px;
+  color: #898989;
+}
+body .seller_detail .detail_left .user_assess .assess_list .assess_item .comment .city_position > img {
+  width: 9px;
+  height: 11px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+body .seller_detail .detail_left .user_assess .assess_list .assess_item .comment .city_position > span {
+  font-size: 14px;
+}
+body .seller_detail .detail_left .paging {
+  width: 100%;
+  margin: 0 auto;
+  height: 152px;
+  clear: both;
+  text-align: center;
+}
+body .seller_detail .detail_left .paging .paging_center {
+  padding-top: 30px;
+  margin-left: 140px;
+}
+body .seller_detail .detail_left .paging .paging_center > a {
+  display: inline-block;
+  box-sizing: border-box;
+  line-height: 30px;
+  border-radius: 0;
+  font-size: 14px;
+  margin: 50px 5px;
+  float: left;
+}
+body .seller_detail .detail_left .paging .paging_center .page_num {
+  float: left;
+  display: inline-block;
+  box-sizing: border-box;
+}
+body .seller_detail .detail_left .paging .paging_center .page_num > a {
+  box-sizing: border-box;
+  text-align: center;
+  color: #333;
+  display: inline-block;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e5e5e5;
+  margin: 50px 5px;
+}
+body .seller_detail .detail_left .paging .paging_center .last_page {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  color: #929292;
+}
+body .seller_detail .detail_left .paging .paging_center .next_page {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #121212;
+  border: 1px solid #e5e5e5;
+  float: left;
+}
+body .seller_detail .detail_right {
+  width: 230px;
+  float: left;
+}
+body .seller_detail .detail_right .top_ad {
+  width: 230px;
+  height: 292px;
+  background: url('../images/yunjiazheng/fuwushang2_07.jpg'), no-repeat;
+  background-size: 230px 292px;
+  text-align: center;
+  line-height: 292px;
+}
+body .seller_detail .detail_right .top_ad > img {
+  width: 115px;
+  height: 115px;
+}
+body .seller_detail .detail_right .bottom_ad {
+  width: 230px;
+  height: 292px;
+  background: url('../images/yunjiazheng/fuwushang2_10.jpg'), no-repeat;
+  background-size: 230px 292px;
+  text-align: center;
+  line-height: 292px;
+}
+body .seller_detail .detail_right .bottom_ad > img {
+  width: 115px;
+  height: 115px;
+}
+body .footer_total {
+  background: #fff;
+  width: 1349px;
+  overflow: hidden;
+}
+body .footer_total .main_baozhang {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+body .footer_total .main_baozhang .baozhang_title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+body .footer_total .main_baozhang .baozhang_title > i {
+  color: #fb474f;
+  font-style: normal;
+  font-weight: 800;
+}
+body .footer_total .main_baozhang > p {
+  font-size: 22px;
+  color: #3d3838;
+  text-align: center;
+}
+body .footer_total .main_safe {
+  width: 1200px;
+  margin: 20px auto;
+}
+body .footer_total .main_safe > ul {
+  width: 1200px;
+  text-align: center;
+}
+body .footer_total .main_safe > ul > li {
+  display: inline-block;
+  margin-left: 40px;
+}
+body .footer_total .main_safe > ul > li > img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+body .footer_total .main_safe > ul > li > span {
+  font-size: 18px;
+  color: #1d1515;
+}
+body .footer_total .footer {
+  width: 1200px;
+  height: 120px;
+  margin: 50px auto 0;
+  background: #fff;
+}
+body .footer_total .footer .footer_city {
+  background: #fff;
+}
+body .footer_total .footer .footer_city .city_title {
+  float: left;
+  width: 72px;
+  height: 100px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+body .footer_total .footer .footer_city .city {
+  box-sizing: border-box;
+  margin-left: 30px;
+  float: left;
+  width: 1090px;
+}
+body .footer_total .footer .footer_city .city > a {
+  width: 9%;
+  height: 30px;
+  font-weight: 200;
+  font-size: 16px;
+  color: #898989;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  margin-left: -4px;
+}
+body .beian_final {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  color: #898989;
+  font-size: 14px;
+  line-height: 40px;
+}

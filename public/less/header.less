@@ -1,0 +1,100 @@
+body{
+  width:100%;
+  height:100%;
+  overflow-x: hidden;
+  .header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    z-index: 100;
+    height:65px;
+    background: rgba(255,255,255,0.97);
+    border-bottom: solid 1px #e5e5e5;
+    &.ani{
+      animation-name: ani;
+      animation-duration:1s;
+      animation-timing-function: ease;
+    }
+    @keyframes ani{
+      from{transform: translateY(-100%) rotateX(90deg)}
+      TO{transform: translateY(0) rotateX(0)}
+    }
+    .header_container{
+      height:100%;
+      width:1200px;
+      margin:0 auto;
+      display:flex;
+      .header_logo{
+        align-self: center;
+        float:left;
+        width:280px;
+        .header_logo_a{
+          float:left;
+          display: inline-block;
+          width:280px;
+          height:100%;
+          .header_logo img{
+            position:absolute;
+            width:280px;
+            height:40px;
+          }
+        }
+      }
+      .header_nav{
+        align-self: center;
+        width:825px;
+        height:42px;
+        margin-left:50px;
+        display: flex;
+        .nav_item{
+          align-self: center;
+          float:left;
+          margin-left:30px;
+          .nav_item_link{
+            font-weight:600;
+            color:#000;
+          }
+          //.nav_red{
+          //  color:#e94840;
+          //}
+        }
+        .nav_item_link:hover{
+          color:#e94840;
+        }
+        .nav_city{
+          margin-right:50px;
+          align-self: center;
+          >img{
+            width:20px;
+            vertical-align:middle;
+            line-height: 20px;
+            margin-right:-5px;
+          }
+          >span{
+            font-weight:700;
+            color:#000;
+            vertical-align: middle;
+          }
+          .change_city:hover{
+            color:#e94840;
+          }
+        }
+        .nav_login{
+          width:71px;
+          height:28px;
+          background: #e94840;
+          text-align: center;
+          border-radius: 5px;
+          .nav_item_login{
+            line-height: 28px;
+            color:#fff
+          }
+        }
+      }
+    }
+  }
+}
+
+
